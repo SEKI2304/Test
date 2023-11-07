@@ -1,0 +1,84 @@
+.modal-edit-category {
+    z-index: 9999; 
+    position: fixed;
+    top: 45%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    .modal-content {
+      z-index: 9999;
+      width: 500px;
+      margin: 20px auto;
+      border-radius: 10px;
+      background-color: #ffffff;
+      box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .modal-header {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 20px  ;
+    }
+
+    .ModalHeaderBody{
+      padding-top: 5px;
+    }
+    .modal-title {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  
+    .modal-body {
+      padding: 20px;
+    }
+  
+    .modal-footer {
+      border-top: 1px solid #ccc;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: end;
+    }
+  
+    .btn-primary {
+      color: #ffffff;
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+  
+    .btn-secondary {
+      color: #007bff;
+      background-color: #ffffff;  
+      border-color: #007bff;
+    }
+    .ModalHeader{
+      justify-content: space-between;
+      display: flex;
+    }
+    .ButtonClose{
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+    }
+    .BotButtons{
+      padding: 6px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    .Input{
+      width: 96%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      padding-right: 10px;
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+    .TextArea{
+      padding: 5px;
+      border-radius: 5px;
+      width: 98%;
+      resize: none;
+      border-color: #ccc;
+      border-width: thin;
+    }
+  }
